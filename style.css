@@ -1,0 +1,10 @@
+/* -----------------
+     Media Querise
+---------------- */
+
+/*-------- Mobile Devices--------- */
+@media only screen and (max-width: 576px) {
+    .mobile-device {
+        flex-direction: column;
+    }
+}
