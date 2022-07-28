@@ -1,10 +1,26 @@
-/* -----------------
-     Media Querise
----------------- */
-
 /*-------- Mobile Devices--------- */
 @media only screen and (max-width: 576px) {
     .mobile-device {
         flex-direction: column;
     }
+
+    .register-text {
+        text-align: center;
+    }
+
+    .register-btn {
+        flex-direction: column;
+    }
+}
+
+/*-------- Tablet Devices--------- */
+@media only screen and (min-width:576px) and (max-width:992px) {
+    .register-text {
+        text-align: center;
+    }
+
+    .register-btn {
+        flex-direction: column;
+    }
+
 }
